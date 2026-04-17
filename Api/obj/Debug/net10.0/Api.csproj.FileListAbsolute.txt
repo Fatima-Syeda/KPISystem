@@ -31,3 +31,8 @@ C:\Users\syeda\desktop\kpi-system\Api\obj\Debug\net10.0\refint\Api.dll
 C:\Users\syeda\desktop\kpi-system\Api\obj\Debug\net10.0\Api.pdb
 C:\Users\syeda\desktop\kpi-system\Api\obj\Debug\net10.0\Api.genruntimeconfig.cache
 C:\Users\syeda\desktop\kpi-system\Api\obj\Debug\net10.0\ref\Api.dll
+C:\Users\syeda\desktop\kpi-system\Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\syeda\desktop\kpi-system\Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\syeda\desktop\kpi-system\Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\syeda\desktop\kpi-system\Api\obj\Debug\net10.0\Api.sourcelink.json
+C:\Users\syeda\desktop\kpi-system\Api\bin\Debug\net10.0\RabbitMQ.Client.dll

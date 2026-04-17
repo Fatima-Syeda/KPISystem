@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "3vZ1Yvn2yL8=",
+  "dgSpecHash": "C6YUYdva2KM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\syeda\\Desktop\\kpi-system\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\syeda\\desktop\\kpi-system\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\syeda\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.6\\microsoft.aspnetcore.openapi.10.0.6.nupkg.sha512",
-    "C:\\Users\\syeda\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\syeda\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\syeda\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\syeda\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\syeda\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.7\\swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
+    "C:\\Users\\syeda\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\syeda\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\syeda\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
   ],
   "logs": []
 }
