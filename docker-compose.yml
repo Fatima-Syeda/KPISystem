@@ -1,20 +1,23 @@
-version: '3.8'
-
 services:
   api:
-    build: ./Api
+    build:
+      context: ./Api
+      dockerfile: Dockerfile
     ports:
       - "5000:8080"
     depends_on:
       - rabbitmq
 
   worker:
-    build: ./Worker
+    build:
+      context: ./Worker
+      dockerfile: Dockerfile
     depends_on:
       - rabbitmq
 
   rabbitmq:
     image: rabbitmq:3-management
+    container_name: rabbitmq
     ports:
-      - "15672:15672"
       - "5672:5672"
+      - "15672:15672"

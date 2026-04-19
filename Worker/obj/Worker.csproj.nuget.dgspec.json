@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\syeda\\desktop\\kpi-system\\worker\\Worker.csproj": {}
+    "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\Worker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\syeda\\desktop\\kpi-system\\worker\\Worker.csproj": {
+    "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\Worker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\syeda\\desktop\\kpi-system\\worker\\Worker.csproj",
+        "projectUniqueName": "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\Worker.csproj",
         "projectName": "Worker",
-        "projectPath": "C:\\Users\\syeda\\desktop\\kpi-system\\worker\\Worker.csproj",
+        "projectPath": "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\Worker.csproj",
         "packagesPath": "C:\\Users\\syeda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\syeda\\desktop\\kpi-system\\worker\\obj\\",
+        "outputPath": "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

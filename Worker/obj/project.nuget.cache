@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P0/hlEQqkkE=",
+  "dgSpecHash": "f+t7gSyX9fw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\syeda\\desktop\\kpi-system\\worker\\Worker.csproj",
+  "projectFilePath": "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\Worker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\syeda\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.6\\microsoft.extensions.configuration.10.0.6.nupkg.sha512",
     "C:\\Users\\syeda\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.6\\microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512",

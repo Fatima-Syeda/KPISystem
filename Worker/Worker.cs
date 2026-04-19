@@ -6,7 +6,7 @@ public class Worker : BackgroundService
 {
     protected override Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        var factory = new ConnectionFactory() { HostName = "rabbirmq" };
+        var factory = new ConnectionFactory() { HostName = "rabbitmq" };
         var connection = factory.CreateConnection();
         var channel = connection.CreateModel();
 
