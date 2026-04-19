@@ -1,16 +1,36 @@
-namespace Worker;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
+using System.Text;
 
-public class Worker(ILogger<Worker> logger) : BackgroundService
+public class Worker : BackgroundService
 {
-    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    protected override Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        while (!stoppingToken.IsCancellationRequested)
+        var factory = new ConnectionFactory() { HostName = "rabbirmq" };
+        var connection = factory.CreateConnection();
+        var channel = connection.CreateModel();
+
+        channel.QueueDeclare(
+            queue: "events",
+            durable: false,
+            exclusive: false,
+            autoDelete: false);
+
+        var consumer = new EventingBasicConsumer(channel);
+
+        consumer.Received += (model, ea) =>
         {
-            if (logger.IsEnabled(LogLevel.Information))
-            {
-                logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-            }
-            await Task.Delay(1000, stoppingToken);
-        }
+            var body = ea.Body.ToArray();
+            var message = Encoding.UTF8.GetString(body);
+
+            Console.WriteLine($"[Worker] Received: {message}");
+        };
+
+        channel.BasicConsume(
+            queue: "events",
+            autoAck: true,
+            consumer: consumer);
+
+        return Task.CompletedTask;
     }
 }

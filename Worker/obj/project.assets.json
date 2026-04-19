@@ -579,6 +579,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "RabbitMQ.Client/6.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.EventLog/10.0.6": {
         "type": "package",
         "compile": {
@@ -1473,6 +1486,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "RabbitMQ.Client/6.8.1": {
+      "sha512": "jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "type": "package",
+      "path": "rabbitmq.client/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/RabbitMQ.Client.dll",
+        "lib/net462/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.8.1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "System.Diagnostics.EventLog/10.0.6": {
       "sha512": "RMe4gRBwSVd1O6HVRjNwLgcH2jjrT8sHyNRJegZLX68voA+HzMf1xZPvFxMMDpyW86B9U2pYslgl4DFCE61WyA==",
       "type": "package",
@@ -1514,7 +1544,8 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.Extensions.Hosting >= 10.0.6"
+      "Microsoft.Extensions.Hosting >= 10.0.6",
+      "RabbitMQ.Client >= 6.8.1"
     ]
   },
   "packageFolders": {
@@ -1524,11 +1555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\syeda\\desktop\\kpi-system\\Worker\\Worker.csproj",
+      "projectUniqueName": "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\Worker.csproj",
       "projectName": "Worker",
-      "projectPath": "C:\\Users\\syeda\\desktop\\kpi-system\\Worker\\Worker.csproj",
+      "projectPath": "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\Worker.csproj",
       "packagesPath": "C:\\Users\\syeda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\syeda\\desktop\\kpi-system\\Worker\\obj\\",
+      "outputPath": "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1570,6 +1601,10 @@
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[10.0.6, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.8.1, )"
           }
         },
         "imports": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\syeda\\desktop\\kpi-system\\Api\\Api.csproj": {}
+    "C:\\Users\\syeda\\desktop\\kpi-system\\api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\syeda\\desktop\\kpi-system\\Api\\Api.csproj": {
+    "C:\\Users\\syeda\\desktop\\kpi-system\\api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\syeda\\desktop\\kpi-system\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\syeda\\desktop\\kpi-system\\api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\syeda\\desktop\\kpi-system\\Api\\Api.csproj",
+        "projectPath": "C:\\Users\\syeda\\desktop\\kpi-system\\api\\Api.csproj",
         "packagesPath": "C:\\Users\\syeda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\syeda\\desktop\\kpi-system\\Api\\obj\\",
+        "outputPath": "C:\\Users\\syeda\\desktop\\kpi-system\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

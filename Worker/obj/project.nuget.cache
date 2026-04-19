@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jCz82y8Gsec=",
+  "dgSpecHash": "P0/hlEQqkkE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\syeda\\Desktop\\kpi-system\\Worker\\Worker.csproj",
+  "projectFilePath": "C:\\Users\\syeda\\desktop\\kpi-system\\worker\\Worker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\syeda\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.6\\microsoft.extensions.configuration.10.0.6.nupkg.sha512",
     "C:\\Users\\syeda\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.6\\microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512",
@@ -31,6 +31,7 @@
     "C:\\Users\\syeda\\.nuget\\packages\\microsoft.extensions.options\\10.0.6\\microsoft.extensions.options.10.0.6.nupkg.sha512",
     "C:\\Users\\syeda\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.6\\microsoft.extensions.options.configurationextensions.10.0.6.nupkg.sha512",
     "C:\\Users\\syeda\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.6\\microsoft.extensions.primitives.10.0.6.nupkg.sha512",
+    "C:\\Users\\syeda\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\syeda\\.nuget\\packages\\system.diagnostics.eventlog\\10.0.6\\system.diagnostics.eventlog.10.0.6.nupkg.sha512"
   ],
   "logs": []
