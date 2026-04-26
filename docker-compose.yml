@@ -1,8 +1,8 @@
 services:
   api:
     build:
-      context: ./Api
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: Api/Dockerfile
     ports:
       - "5000:8080"
     depends_on:
@@ -10,14 +10,24 @@ services:
 
   worker:
     build:
-      context: ./Worker
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: Worker/Dockerfile
     depends_on:
       - rabbitmq
+      - postgres
 
   rabbitmq:
     image: rabbitmq:3-management
-    container_name: rabbitmq
     ports:
-      - "5672:5672"
       - "15672:15672"
+      - "5672:5672"
+
+  postgres:
+    image: postgres:15
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: eventsdb
+    ports:
+      - "5432:5432"

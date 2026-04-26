@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.Json;
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
@@ -40,5 +41,7 @@ app.MapPost("/events", (Event evt) =>
 
     return Results.Ok(new { message = "Event sent to queue" });
 });
+
+
 
 app.Run();
