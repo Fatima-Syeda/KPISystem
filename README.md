@@ -32,6 +32,7 @@ Client → API → RabbitMQ → Worker → PostgreSQL → Client
 
 ## 🛠️ Tech Stack
 - .NET (ASP.NET Core Minimal API)
+- C#
 - RabbitMQ
 - PostgreSQL
 - Entity Framework Core
