@@ -11,7 +11,7 @@ builder.Services.AddHostedService<EventWorker>();
 
 var host = builder.Build();
 
-// 🔥 ADD THIS
+
 using (var scope = host.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
